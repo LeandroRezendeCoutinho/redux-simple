@@ -1,18 +1,20 @@
 import './App.css';
-import Card from "./components/Card";
 import Interval from "./components/Interval";
+import Average from "./components/Average";
+import Sum from "./components/Sum";
+import Raffle from "./components/Raffle";
 
 function App() {
   return (
     <div className="App">
       <h1>React redux simple exercise</h1>
       <div className='line'>
-        <Interval title='Number interval'></Interval>
+        <Interval></Interval>
       </div>
       <div className='line'>
-        <Card title="Card 2" green>X</Card>
-        <Card title="Card 3" blue>Y</Card>
-        <Card title="Card 4" purple>Y</Card>
+        <Average></Average>
+        <Sum></Sum>
+        <Raffle></Raffle>
       </div>
     </div>
   );
